@@ -1,0 +1,242 @@
+.text-center {
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+body{
+    background-color: black;
+    padding-top: 70px;
+    overflow-x: hidden;    
+}
+
+
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Un valor alto */
+}
+
+.navbar {
+    background-color:blue;
+    
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.menu {
+    background-color: #333; /* Color de fondo */
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Coloca las casillas en línea horizontalmente */
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Color de enlaces */
+}
+.menu {
+    margin-top: 5px; /* Ajusta según sea necesario */
+}
+
+.navbar {
+    background-color: blue; /* Color de fondo de la barra de navegación */
+    font-weight: bold;
+    color: #fff; /* Color de texto de la barra de navegación */
+    padding: 10px; /* Ajusta según sea necesario */
+}
+
+.menu {
+    background-color: blue; /* Color de fondo del menú */
+    color: #fff; /* Color de texto del menú */
+    margin-top: 10px; /* Margen superior para separar del menú de navegación */
+    padding: 10px; /* Ajusta según sea necesario */
+}
+
+.devops{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+h2 {
+    text-align: center; /* Centra horizontalmente */
+}
+
+/* Centra verticalmente en dispositivos móviles (opcional) */
+@media (max-width: 768px) {
+    h2 {
+        display: flex;
+        align-items: center;
+    }
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Centra horizontalmente */
+}
+@media (max-width: 768px) {
+    iframe {
+        width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    }
+}
+.parrafo{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor-imagen {
+    text-align: center;
+}
+.piePagina{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/* Cambia el color del botón al pasar el mouse sobre él */
+.btn:hover {
+    background-color: red; /* Reemplaza "tu-color" con el color deseado */
+    color: white; /* Opcional: cambia el color del texto */
+    border-color: blueviolet; /* Opcional: cambia el color del borde */
+}
+
+/* Elimina el estilo "active" del botón al hacer clic */
+.btn:active {
+    background-color: red; /* Reemplaza "tu-color" con el color deseado */
+    color: white; /* Opcional: cambia el color del texto */
+    border-color: blueviolet; /* Opcional: cambia el color del borde */
+}
+
+.btn {
+    color: white;
+}
+
+
+.portada-libro {
+    width: 6in; /* 6 pulgadas */
+    height: 9in; /* 9 pulgadas */
+    margin: 0 auto; /* Centrar la portada en la página */
+}
+.portada-libro img {
+    width: 100%;
+    height: 100%;
+}
+
+.portada-libro {
+    max-width: 100%; /* Ancho máximo del 100% por defecto */
+
+    /* Media Query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+    @media (max-width: 768px) {
+        max-width: 90%; /* Cambia el ancho máximo en pantallas más pequeñas */
+    }
+}
+
+
+
+
+
+a.navbar-brand img {
+    width: 30px; /* Ancho del icono */
+    height: 30px; /* Alto del icono */
+}
+
+.navbar-toggler img{
+    width: 30px;
+    height: 30px;
+}
+
+.icon-img {
+    width: 30px; /* Ajusta el ancho según el tamaño deseado */
+    height: 30px; /* Ajusta el alto según el tamaño deseado */
+}
+
+
+/* estilos del menu desplazable */
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin: 10px 0;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s;
+    color: white;
+}
+
+.menu-list li a:hover {
+    color: #007bff;
+    transition: color 0.3s;
+}
+/* estilos del menu desplazable */
+
+
+
+
+
+
+.titulo{
+    
+        font-size: 50px; /* Tamaño de fuente */
+        color: red; /* Color del texto */
+        font-weight: bold; /* Peso de la fuente en negrita */
+        font-family: Arial, sans-serif; /* Tipo de fuente */
+        text-align: center; /* Alineación del texto */
+        /* Agrega otros estilos según tus preferencias */
+
+    
+}
+
+.titulosH2{
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+.contador {
+    background-color: #3498db; /* Color de fondo del contador */
+    color: #fff; /* Color del texto del contador */
+    font-size: 16px; /* Tamaño de fuente del contador */
+    padding: 5px 10px; /* Relleno alrededor del contador */
+    border-radius: 5px; /* Borde redondeado del contador */
+}
+
+#contador {
+    font-weight: bold; /* Texto en negrita */
+}
+
