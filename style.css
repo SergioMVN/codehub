@@ -240,3 +240,32 @@ a.navbar-brand img {
     font-weight: bold; /* Texto en negrita */
 }
 
+/* Otras reglas de estilo ... */
+
+@media (max-width: 375px) and (max-height: 812px),
+       (max-width: 414px) and (max-height: 896px) {
+    .navbar {
+        background-color: blue !important; /* Usa !important para asegurar la prioridad */
+        font-weight: bold;
+        color: #fff;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        color: white;
+        transition: none;
+    }
+
+    .navbar-collapse {
+        background-color: blue; /* Ajusta el fondo del menú desplegable si es necesario */
+    }
+
+    /* Otros estilos específicos para iPhone XR y iPhone SE ... */
+}
